@@ -1,0 +1,4 @@
+- What happens when you initialize a repository? Why do you need to do it?
+  When you initialize a repository with git init command git creates new hidden folder .git that has log file and other supporting files, it will not make any commits to a repository. You need to do this because without this you will not be able to call you folder git repository, and no git commands will work with it.
+- How is the staging area different from the working directory and the repository? What value do you think it offers?
+  Staging area is like a buffer between working directory and repository, it stores changes you want to make to the repository but still don't want to commit because of some circumstances. I think it offers more control over commits, it gives you the possibility to choose what files will be added to repository rather of all files with commit command.
